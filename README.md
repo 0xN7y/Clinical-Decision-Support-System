@@ -27,3 +27,52 @@ By integrating medical textbooks, this system aims to:
 - ✅ Retrieve relevant medical information from textbooks  
 - ✅ Generate reliable, context-aware clinical recommendations  
 - ✅ Minimize diagnostic errors and improve treatment accuracy  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **LangChain**
+- **Gemini**
+- **Pinecone**
+- **Streamlit**
+
+---
+
+## 🚀 How to Run
+
+### 🔁 Step 1 – Clone the Repository
+```bash
+git clone https://github.com/your-repo-url
+cd your-repo-directory
+```
+## Step 2 – Create & Activate Conda Environment
+```bash
+conda create -n cdssrag python=3.10 -y
+conda activate cdssrag
+```
+## 📦 Step 3 – Install Requirements
+```bash
+pip install -r requirements.txt
+```
+## 🔐 Step 4 – Configure Environment Variables
+```ini
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+## 🧠 Step 5 – Generate Embeddings and Run the App
+```bash
+# Store embeddings to Pinecone
+python store_index.py
+```
+
+```bash
+# Finally run the following command
+streamlit run app.py
+```
+open your browser and navigate to:
+```bash
+http://localhost:8501
+
+```
