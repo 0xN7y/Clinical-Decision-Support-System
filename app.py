@@ -13,18 +13,21 @@ import os
 # Set the page configuration
 st.set_page_config(
     page_title="MediBot",
-    page_icon="🩺",  #🌟👨‍⚕️Can use a URL or a local file path for an image
+    page_icon="🩺",  #
 )
 st.title("🩺 Welcome to MediBot!")
 
-# Your app content
+#  app content
 st.write("**MediBot Bot is here to help you with your medical queries.**")
 st.write("Please note that this is for informational purposes only and not a substitute for professional medical advice.")
 
 # Load environment variables
 load_dotenv()
+
+
 PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
 GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
+
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
@@ -53,7 +56,6 @@ question_answer_chain = create_stuff_documents_chain(llm, prompt)
 rag_chain = create_retrieval_chain(retriever, question_answer_chain)
 
 # Streamlit app
-
 
 # Initialize chat history in session state
 if "messages" not in st.session_state:
