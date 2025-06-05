@@ -82,4 +82,3 @@ if user_input := st.chat_input("Type your question here..."):
             # Add assistant response to chat history
             st.session_state.messages.append({"role": "assistant", "content": answer})
 
-# Run the app with: streamlit run this_file.py
