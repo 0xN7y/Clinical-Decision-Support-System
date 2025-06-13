@@ -76,3 +76,4 @@ open your browser and navigate to:
 http://localhost:8501
 
 ```
+![My cool GIF](https://github.com/edasaruhan/FTL_Ethiopia_ML2_Gr1/blob/main/docs/RAG.gif)
