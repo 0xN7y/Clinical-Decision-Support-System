@@ -1,4 +1,4 @@
-# 🚑 AI-Powered Clinical Decision Support System (CDSS) Using RAG  
+# 🩺 AI-Powered Clinical Decision Support System (CDSS) Using RAG  
 **FTL_Ethiopia_ML2 | Group 1**
 
 ---
