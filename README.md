@@ -44,8 +44,8 @@ By integrating medical textbooks, this system aims to:
 
 ### 🔁 Step 1 – Clone the Repository
 ```bash
-git clone https://github.com/your-repo-url
-cd your-repo-directory
+git clone https://github.com/0xN7y/Clinical-Decision-Support-System
+cd Clinical-Decision-Support-System
 ```
 ## Step 2 – Create & Activate Conda Environment
 ```bash
